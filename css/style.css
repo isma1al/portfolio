@@ -115,7 +115,8 @@ header:after {
     width: 40%;
     position: absolute;
     z-index: 3;
-    height: 50px;
+    height: 70px;
+    padding-top: 20px;
 }
 
 .left-container__content {
@@ -123,6 +124,7 @@ header:after {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .hamburger {
@@ -184,8 +186,8 @@ header:after {
 }
 
 .logo {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     background-image: url(../img/logo.jpg);
     background-position: bottom center;
@@ -198,9 +200,10 @@ header:after {
 .name {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #ffc815;
 }
 
 .burger-menu__content {
@@ -269,6 +272,7 @@ header:after {
     overflow: hidden;
     transition: 1s all ease;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .left-container__btn::before {
